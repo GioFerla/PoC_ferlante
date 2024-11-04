@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.result {
+    margin: 0 15vh 5vh;
+    font-size: xx-large;
+}
+
+.content {
+    margin: 0 40vh;
+}

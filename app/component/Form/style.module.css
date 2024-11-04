@@ -1,0 +1,61 @@
+/* Stili per il form */
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px; 
+    padding: 2rem;
+    background-color: #3d3d3d; 
+    border-radius: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+    font-size: 1rem;
+    margin: 0 0 2.5vh 0;
+}
+
+
+.label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+}
+
+.form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 300ms, color 300ms;
+}
+
+.form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+}
+
+.span {
+    color: var(--bg-dark);
+    text-align: center;
+}
+
+.span a {
+    color: var(--clr);
+    text-decoration: underline;
+}
